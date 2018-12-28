@@ -108,8 +108,8 @@ transform: translateY(-50%);
   background: rgba(0,0,0,0.8);
   color : whitesmoke;
   text-align: center;
-  padding: 1px 0 20px ;
-  margin: 50px, 0;
+  padding: 70px 0 20px ;
+  margin: 100px, 0;
 }
 .educationtitle{
   font-size: 6rem;
@@ -117,7 +117,8 @@ transform: translateY(-50%);
 }
 .education-place{
   font-size: 2rem;
-}
+  
+  }
 /* introduce 페이지의 about-me 섹션 */
 .about-me{
   padding: 20px, 100px;
