@@ -75,3 +75,60 @@ transform: translateY(-50%);
   font-weight: 900;
 }
  
+
+/* 메인 컨텐츠 섹션 div로 감싸 주고 ..
+인덱스 페이지의 배경이미지 지정*/
+.main-bg{
+  background: url('../assets/main-bg2.jpg') no-repeat 0 0 /cover;
+  height: 100vh;
+}
+/* 푸터 디자인 */
+.footer{
+  background: #fff;
+  box-shadow: 0 -5px 3px 0 #333
+}
+/* 메인페이지에 푸터를 고정하기 위해서  다른 페이지의 푸터를 적용 안 받게 하기 위해서*/
+.main-bg .footer{
+  position: fixed;
+  left : 0;
+  bottom: 0;
+  width: 100% ;
+  /* width를 100% 해줘야 블럭이 안생김 */
+}
+/* 저작권 정보 */
+.copyright{
+  background: whitesmoke;
+  display : block;
+  text-align: center;
+  padding: 2em;
+}
+
+/* 인덱스 페이지 에듀케이션 섹션 */
+.education{
+  background: rgba(0,0,0,0.8);
+  color : whitesmoke;
+  text-align: center;
+  padding: 1px 0 20px ;
+  margin: 50px, 0;
+}
+.educationtitle{
+  font-size: 6rem;
+  margin: 0;
+}
+.education-place{
+  font-size: 2rem;
+}
+/* introduce 페이지의 about-me 섹션 */
+.about-me{
+  padding: 20px, 100px;
+  /* width: 1024px;
+  margin: 0 auto; */
+}
+.about-photo{
+  width: 100% ;
+
+}
+.about-photo img{
+  max-width: 100%;
+  height: auto;
+}
